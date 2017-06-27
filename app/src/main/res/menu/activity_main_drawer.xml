@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_startT"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="Start Training" />
+        <item
+            android:id="@+id/nav_stopT"
+            android:icon="@android:drawable/ic_media_pause"
+            android:title="Stop Training" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contactUs"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="Contact us" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#334268"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="gl52.utbm.esportshoe.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/welcomeTView"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:background="@android:color/black"
+        android:text="Welcome"
+        android:textAllCaps="true"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/field3"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/darker_gray"
+        android:clickable="true"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@+id/field1"
+        app:layout_constraintRight_toRightOf="@+id/field1"
+        app:layout_constraintTop_toBottomOf="@+id/field1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/field1"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginStart="21dp"
+        android:background="@android:color/darker_gray"
+        android:clickable="true"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/field2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/field2"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/field2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginTop="67dp"
+        android:background="@android:color/darker_gray"
+        android:clickable="true"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/field4"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@android:color/darker_gray"
+        android:clickable="true"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/field2"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/field2"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/field2" />
+
+    <TextView
+        android:id="@+id/stat1"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="-23dp"
+        android:layout_marginLeft="-2dp"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/stat2"
+        app:layout_constraintLeft_toLeftOf="@+id/stat2"
+        tools:layout_constraintBottom_creator="1" />
+
+    <TextView
+        android:id="@+id/stat2"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="51dp"
+        android:layout_marginLeft="-19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="51dp"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/field4"
+        app:layout_constraintLeft_toLeftOf="@+id/stat3"
+        app:layout_constraintTop_toTopOf="@+id/field4"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/stat3"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="111dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="109dp"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/field3"
+        app:layout_constraintTop_toTopOf="@+id/field4"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+</android.support.constraint.ConstraintLayout>
